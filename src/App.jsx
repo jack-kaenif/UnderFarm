@@ -13,7 +13,9 @@ function App() {
         <nav className="navbar navbar-expand-lg w-100">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              <span class="material-symbols-outlined">potted_plant</span>
+              <span class="material-symbols-outlined">
+              potted_plant
+              </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -29,9 +31,10 @@ function App() {
                     <li><a class="dropdown-item" href="#">Insumos</a></li>
                   </ul>
                 </li>
-            <form class="d-flex" role="search">
+              </ul>
+              <form class="d-flex" role="search">
                 <input class="form-control me-2 rounded-pill" type="search" placeholder="Buscar" aria-label="Search"/>
-                <button class="btn btn-light rounded-pill text-success align-middle" type="submit"><span class="material-symbols-outlined">search</span></button>
+                <button class="btn btn-light rounded-circle" type="submit"><span class="material-symbols-outlined">search</span></button>
               </form>
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute end-0 d-flex">
                 <li class="nav-item btn btn-light rounded-pill m-2">
@@ -51,6 +54,14 @@ function App() {
           </div>
         </nav>
       </header>
+
+      <section class="Inicio">
+        <img src="src/assets/Logo🔥/LogoR.png"></img>
+        <h1>Bienvenido a X!</h1>
+        <span class="material-symbols-outlined">
+          add
+        </span>
+      </section>
     </>
   )
 }
