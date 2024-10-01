@@ -31,10 +31,9 @@ function App() {
                     <li><a class="dropdown-item" href="#">Insumos</a></li>
                   </ul>
                 </li>
-              </ul>
               <form class="d-flex" role="search">
                 <input class="form-control me-2 rounded-pill" type="search" placeholder="Buscar" aria-label="Search"/>
-                <button class="btn btn-light rounded-circle" type="submit"><span class="material-symbols-outlined">search</span></button>
+                <button class="btn btn-light rounded-pill text-success" type="submit"><span class="material-symbols-outlined">search</span></button>
               </form>
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 position-absolute end-0 d-flex">
                 <li class="nav-item btn btn-light rounded-pill m-2">
@@ -54,7 +53,6 @@ function App() {
           </div>
         </nav>
       </header>
-
       <section class="Inicio">
         <img src="src/assets/Logo🔥/LogoR.png"></img>
         <h1>Bienvenido a X!</h1>
