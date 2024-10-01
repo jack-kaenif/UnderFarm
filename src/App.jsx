@@ -14,7 +14,7 @@ function App() {
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               <span class="material-symbols-outlined">
-              potted_plant
+                potted_plant
               </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,13 +46,21 @@ function App() {
                 </li>
               </ul>
               <form class="d-flex" role="search">
-                <input class="form-control me-2 rounded-pill" type="search" placeholder="Buscar" aria-label="Search"/>
+                <input class="form-control me-2 rounded-pill" type="search" placeholder="Buscar" aria-label="Search" />
                 <button class="btn btn-light rounded-circle" type="submit"><span class="material-symbols-outlined">search</span></button>
               </form>
             </div>
           </div>
         </nav>
       </header>
+
+      <section class="Inicio">
+        <img src="src/assets/Logo🔥/LogoR.png"></img>
+        <h1>Bienvenido a X!</h1>
+        <span class="material-symbols-outlined">
+          add
+        </span>
+      </section>
     </>
   )
 }
